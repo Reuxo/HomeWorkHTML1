@@ -1,0 +1,15 @@
+.container {
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(248, 247, 239);
+}
+.H1 {
+  font-size: 20px;
+}
+.grey {
+  color: rgb(176, 173, 173);
+}
+.blue {
+  color: rgb(53, 16, 185);
+}

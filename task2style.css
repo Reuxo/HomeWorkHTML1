@@ -1,0 +1,47 @@
+.container {
+  width: 430px;
+  margin: auto;
+  padding: 1px 20px 10px 20px;
+  background-color: rgb(234, 235, 235);
+}
+.head {
+  font-size: 25px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul > li {
+  padding: 5px 10px 5px 30px;
+  box-sizing: border-box;
+}
+
+ul > li::before {
+  display: inline-block;
+  content: "\2610";
+  margin-right: 10px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 500;
+}
+
+ul > li:nth-child(odd) {
+  background: #a5ccda;
+}
+ul > li:nth-child(even) {
+  background: #add8e6;
+}
+ul > li.done {
+  background: #e2e2e2;
+}
+
+ul > li.done .name {
+  text-decoration: line-through;
+}
+ul > li.done::before {
+  content: "\2611";
+}
+
+ul > li .del {
+  color: darkred;
+}
